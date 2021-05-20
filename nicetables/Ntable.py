@@ -1,11 +1,6 @@
 
 
-table = [
-    ['Last name',   'First name',   'Age'],
-    ['Smith',       'John',         30],
-    ['Carpenter',   'Jack',         47],
-    ['Johnson',     'Paul',         62],
-]
+
 from build_table_help import *
 
 class nice_table(object):
@@ -68,6 +63,14 @@ class nice_table(object):
 
 if __name__ == '__main__':
     print("Use The build_table(table) function")
+    
+    table = [
+        ['Last name',   'First name',   'Age'],
+        ['Smith',       'John',         30],
+        ['Carpenter',   'Jack',         47],
+        ['Johnson',     'Paul',         62],
+    ]
+    
     t = nice_table(table)
     print(t)
     t.add_row('Levi','Tal',20)
