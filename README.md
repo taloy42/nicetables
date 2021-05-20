@@ -1,3 +1,3 @@
 # nicetables
 
-its a me, MARIO
+little python module that lets the user print tables nicely
